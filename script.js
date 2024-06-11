@@ -32,7 +32,7 @@ jam.innerHTML = `${hour}:${minutes}`
 const pengirim = "Nanami";
 const nomorWa = "629665427020" // awalan nomor 0 harus di awalin 62
 const textWa = "Ah bisa aja kamu"
-const pesan = `Pada akhirnya kita berdua menjadi dua orang penjahat: Kamu yang dengan hebatnya bisa mencuri hatiku, begitu juga aku yang berhasil mencuri hatimu`;
+const pesan = `Katanya kamu berulang tahun di bulan Desember ya? Happy Birthday ya Ella, maaf aku mungkin sudah terlambat untuk mengucapkan ulang tahun mu`;
 
 if (pengirim) {
   nama.innerHTML = pengirim;
@@ -73,7 +73,7 @@ hilang1.addEventListener('click', () => {
     let i = 0;
     const speed = 50;
     const namaAwal = result.value.login.charAt(0)
-    let txt = `Halo, Nama kamu ${result.value.login}, Nama kamu berawal dari huruf ${namaAwal.toUpperCase()}, ${pesan}`;
+    let txt = `Halo, Nama kamu ${result.value.login}, `;
 
     const typeWriter = () => {
       if (i < txt.length) {
