@@ -29,7 +29,7 @@ hari.innerHTML = `${dayID()}, ${tgl} ${monthID()} ${year}`
 jam.innerHTML = `${hour}:${minutes}`
 
 // Dirubah 
-const pengirim = "Cikal";
+const pengirim = "Nanami";
 const nomorWa = "6289668068213" // awalan nomor 0 harus di awalin 62
 const textWa = "Ah bisa aja kamu"
 const pesan = `Pada akhirnya kita berdua menjadi dua orang penjahat: Kamu yang dengan hebatnya bisa mencuri hatiku, begitu juga aku yang berhasil mencuri hatimu`;
@@ -56,7 +56,7 @@ hilang1.addEventListener('click', () => {
   hilang1.style.display = "none"
   hilang2.style.display = "block"
   Swal.fire({
-    imageUrl: "/assets/img/stiker_mylove.gif",
+    imageUrl: "https://munxii1.github.io/jujutsu-kaisen-nanami-kento.gif",
     imageHeight: 120,
     title: 'Halo Kenalan Dong, Nama Kamu Siapa ?',
     html: `<input type="text" id="login" class="swal2-input" placeholder="Nama Kamu">`,
