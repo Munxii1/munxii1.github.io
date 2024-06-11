@@ -73,7 +73,7 @@ hilang1.addEventListener('click', () => {
     let i = 0;
     const speed = 50;
     const namaAwal = result.value.login.charAt(0)
-    let txt = `Halo, Nama kamu ${result.value.login}, `;
+    let txt = `Halo, Nama kamu ${result.value.login}, ${pesan} `;
 
     const typeWriter = () => {
       if (i < txt.length) {
